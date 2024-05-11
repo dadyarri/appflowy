@@ -9,6 +9,7 @@
   "title": "Заголовок",
   "youCanAlso": "Вы также можете",
   "and": "и",
+  "failedToOpenUrl": "Ошибка открытия ссылки: {}",
   "blockActions": {
     "addBelowTooltip": "Нажмите, чтобы добавить ниже",
     "addAboveCmd": "Alt+клик",
@@ -41,11 +42,29 @@
     "emailHint": "Электронная почта",
     "passwordHint": "Пароль",
     "dontHaveAnAccount": "Нет аккаунта?",
+    "createAccount": "Создать аккаунт",
     "repeatPasswordEmptyError": "Повтор пароля не может быть пустым",
     "unmatchedPasswordError": "Пароли не совпадают",
     "syncPromptMessage": "Синхронизация данных может занять некоторое время. Пожалуйста, не закрывайте эту страницу",
     "or": "или",
+    "signInWithGoogle": "Войти с Google",
+    "signInWithGithub": "Войти с GitHub",
+    "signInWithDiscord": "Войти с Discord",
+    "signUpWithGoogle": "Зарегистрироваться с Google",
+    "signUpWithGithub": "Зарегистрироваться с Github",
+    "signUpWithDiscord": "Зарегистрироваться с Discord",
     "signInWith": "Войти с помощью:",
+    "signInWithEmail": "Войти через Email",
+    "signInWithMagicLink": "Войти с одноразовой ссылкой",
+    "signUpWithMagicLink": "Зарегистрироваться с одноразовой ссылкой",
+    "pleaseInputYourEmail": "Введите Email",
+    "settings": "Настройки",
+    "magicLinkSent": "Одноразовая ссылка была отправлена на почту, нажмите на нее чтобы войти",
+    "invalidEmail": "Введите корректный email",
+    "alreadyHaveAnAccount": "Уже есть аккаунт?",
+    "logIn": "Войти",
+    "generalError": "Что-то пошло не так, попробуйте ещё раз",
+    "limitRateError": "В целях безопасности, одноразовую ссылку можно получить только раз в 60 секунд",
     "LogInWithGoogle": "Войти через Google",
     "LogInWithGithub": "Войти через GitHub",
     "LogInWithDiscord": "Войти через Discord",
@@ -64,12 +83,31 @@
       "reportIssueOnGithub": "Сообщить о проблеме на Github",
       "exportLogFiles": "Экспорт логов",
       "reachOut": "Написать в Discord"
-    }
+    },
+    "menuTitle": "Рабочие пространства",
+    "deleteWorkspaceHintText": "Вы уверены, что хотите удалить рабочее пространство? Это действие не может быть отменено.",
+    "createSuccess": "Рабочее пространство успешно создано",
+    "createFailed": "Не удалось создать рабочее пространство",
+    "createLimitExceeded": "Вы достигли максимального предела рабочего пространства, разрешенного для вашей учетной записи. Если вам нужны дополнительные рабочие пространства для продолжения работы, отправьте запрос на Github.",
+    "deleteSuccess": "Рабочее пространство успешно удалено",
+    "deleteFailed": "Не удалось удалить рабочее пространство",
+    "openSuccess": "Рабочее пространство успешно открыто",
+    "openFailed": "Не удалось открыть рабочее пространство",
+    "renameSuccess": "Рабочее пространство успешно переименовано",
+    "renameFailed": "Не удалось переименовать рабочее пространство",
+    "updateIconSuccess": "Иконка рабочего пространства успешно обновлена",
+    "updateIconFailed": "Не удалось обновить иконку рабочего пространства",
+    "cannotDeleteTheOnlyWorkspace": "Нельзя удалить последнее рабочее пространство",
+    "fetchWorkspacesFailed": "Ошибка получения рабочих пространств",
+    "leaveCurrentWorkspace": "Закрыть рабочее пространство",
+    "leaveCurrentWorkspacePrompt": "Вы уверены, что хотите покинуть текущее рабочее пространство?"
   },
   "shareAction": {
     "buttonText": "Поделиться",
     "workInProgress": "В разработке",
     "markdown": "Markdown",
+    "html": "HTML",
+    "clipboard": "Скопировать в буфер обмена",
     "csv": "CSV",
     "copyLink": "Скопировать ссылку"
   },
@@ -133,7 +171,8 @@
       "emptyDescription": "У вас нет удалённых файлов",
       "isDeleted": "удалён",
       "isRestored": "восстановлен"
-    }
+    },
+    "confirmDeleteTitle": "Вы уверены, что хотите удалить эту страницу навсегда?"
   },
   "deletePagePrompt": {
     "text": "Эта страница находится в корзине",
@@ -187,16 +226,23 @@
     "dragRow": "Перетащите для изменения порядка строк",
     "viewDataBase": "Просмотр базы данных",
     "referencePage": "Ссылки на {name}",
-    "addBlockBelow": "Добавьте блок ниже"
+    "addBlockBelow": "Добавьте блок ниже",
+    "genSummary": "Сгенерировать сводку"
   },
   "sideBar": {
     "closeSidebar": "Закрыть боковое меню",
     "openSidebar": "Открыть боковое меню",
     "personal": "Личное",
+    "private": "Личное",
+    "workspace": "Рабочее пространство",
     "favorites": "Избранное",
+    "clickToHidePrivate": "Нажмите, чтобы скрыть личное пространство\nСтраницы, созданные вами здесь, видны только вам.",
+    "clickToHideWorkspace": "Нажмите, чтобы скрыть рабочее пространство\nСтраницы, созданные вами здесь, видны каждому участнику.",
     "clickToHidePersonal": "Нажмите, чтобы скрыть личный раздел",
     "clickToHideFavorites": "Нажмите, чтобы скрыть раздел избранного",
     "addAPage": "Добавить страницу",
+    "addAPageToPrivate": "Добавить страницу в личное пространство",
+    "addAPageToWorkspace": "Добавить страницу в рабочее пространство",
     "recent": "Недавние"
   },
   "notifications": {
@@ -213,6 +259,7 @@
   },
   "button": {
     "ok": "Ок",
+    "confirm": "Подтвердить",
     "done": "Готово",
     "cancel": "Отмена",
     "signIn": "Войти",
@@ -244,7 +291,14 @@
     "remove": "Удалить",
     "dontRemove": "Не удалять",
     "copyLink": "Скопировать ссылку",
-    "align": "Выровнять"
+    "align": "Выровнять",
+    "login": "Войти",
+    "logout": "Выйти",
+    "deleteAccount": "Удалить аккаунт",
+    "back": "Назад",
+    "signInGoogle": "Войти с Google",
+    "signInGithub": "Войти с Github",
+    "signInDiscord": "Войти с Discord"
   },
   "label": {
     "welcome": "Добро пожаловать!",
@@ -268,6 +322,43 @@
   },
   "settings": {
     "title": "Настройки",
+    "accountPage": {
+      "menuLabel": "Мой аккаунт",
+      "title": "Мой аккаунт",
+      "description": "Настройте свой профиль, управляйте безопасностью аккаунта и ключами AI API или войдите в свой аккаунт.",
+      "general": {
+        "title": "Имя учетной записи и изображение профиля",
+        "changeProfilePicture": "Изменить изображение профиля"
+      },
+      "email": {
+        "title": "Email",
+        "actions": {
+          "change": "Изменить email"
+        }
+      },
+      "keys": {
+        "title": "Ключи API ИИ",
+        "openAILabel": "API-ключ OpenAI",
+        "openAITooltip": "Ключ API OpenAI для использования моделей AI.",
+        "openAIHint": "Введите свой ключ API OpenAI",
+        "stabilityAILabel": "API-ключ Stability",
+        "stabilityAITooltip": "Ключ Stability API для использования моделей AI.",
+        "stabilityAIHint": "Введите свой ключ API Stability"
+      },
+      "login": {
+        "title": "Логин аккаунта",
+        "loginLabel": "Войти",
+        "logoutLabel": "Войти"
+      }
+    },
+    "workspacePage": {
+      "menuLabel": "Рабочее пространство",
+      "title": "Рабочее пространство",
+      "description": "Настройте внешний вид рабочего пространства, тему, шрифт, макет текста, формат даты/времени и язык.",
+      "workspaceName": {
+        "title": "Название рабочего пространства"
+      }
+    },
     "menu": {
       "appearance": "Внешний вид",
       "language": "Язык",
